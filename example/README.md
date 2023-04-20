@@ -17,6 +17,7 @@ exports:
     template: ..
   - format: pdf
     template: ..
+    output: ascelike-new-example.pdf
 ---
 
 +++ {"part": "abstract"}
