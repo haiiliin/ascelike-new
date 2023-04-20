@@ -57,10 +57,6 @@ options:
       - NewProceedings
       - Proceedings
     default: Journal
-  - type: string
-    id: name_tag
-    description: The first author's last name for the footer
-    default: AuthorOneLastName
   - type: choice
     id: figs_placement
     description: Placement of the table of figures and tables
@@ -87,6 +83,10 @@ options:
     id: other_options
     description: Other options for the document class
     default: 'letterpaper'
+  - type: string
+    id: name_tag
+    description: The first author's last name for the footer
+    default: AuthorOneLastName
 files:
   - template.tex
   - ascelike-new.bst
