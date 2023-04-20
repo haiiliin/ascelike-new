@@ -15,6 +15,7 @@ keywords: myst, markdown, open-science
 exports:
   - format: tex
     template: ..
+    output: ascelike-new-example.zip
   - format: pdf
     template: ..
     output: ascelike-new-example.pdf
