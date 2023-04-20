@@ -19,7 +19,7 @@ In the `ascelike-new` template, the following options are available:
 |----------|--------------------|---------|----------|-------------------|----------------------------------------------------------------------|
 | document | `title`            | string  | true     |                   | Title of your document                                               |
 |          | `authors`          | list    | true     |                   | List of authors                                                      |
-|          | `keywords`         | list    | true     |                   | List of keywords                                                     |
+|          | `keywords`         | string  | true     |                   | List of keywords                                                     |
 |          | `bibliography`     | string  | false    |                   | Path to your bibliography file (*.bib)                               |
 | options  | `style`            | boolean | false    | `Journal`         | Style of your document, `Journal`, `NewProceedings` or `Proceedings` |
 |          | `lists_placement`  | string  | false    | `InsideFigs`      | Placement for list of figures and tables, `BackFigs` or `InsideFigs` |
