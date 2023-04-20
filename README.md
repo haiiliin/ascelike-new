@@ -15,22 +15,22 @@ on how to set up a MyST project.
 
 In the `ascelike-new` template, the following options are available:
 
-| Category | Option             | type    | required | default           | description                                                          |
-|----------|--------------------|---------|----------|-------------------|----------------------------------------------------------------------|
-| document | `title`            | string  | true     |                   | Title of your document                                               |
-|          | `authors`          | list    | true     |                   | List of authors                                                      |
-|          | `keywords`         | list    | true     |                   | List of keywords                                                     |
-|          | `bibliography`     | string  | false    |                   | Path to your bibliography file (*.bib)                               |
-| options  | `style`            | boolean | false    | Journal           | Style of your document, Journal, NewProceedings or Proceedings       |
-|          | `name_tag`         | string  | false    | AuthorOneLastName | The first author's last name for the footer                          | 
-|          | `figs_placement`   | string  | false    | InsideFigs        | Placement of the table of figures and tables, BackFigs or InsideFigs |
-|          | `spacing`          | string  | false    | DoubleSpace       | Spacing between lines, SingleSpace or DoubleSpace                    |
-|          | `font_size`        | string  | false    | 12pt              | Font size, 10pt, 11pt, or 12pt                                       |
-|          | `other_options`    | string  | false    | letterpaper       | Other options for the document class                                 |
-| parts    | `abstract`         | string  | true     |                   | Abstract of your document                                            |
-|          | `availability`     | string  | false    |                   | Data availability statement                                          |
-|          | `acknowledgements` | string  | false    |                   | Acknowledgements                                                     |
-|          | `appendix`         | string  | false    |                   | Appendix                                                             |
+| Category | Option             | type    | required | default           | description                                                              |
+|----------|--------------------|---------|----------|-------------------|--------------------------------------------------------------------------|
+| document | `title`            | string  | true     |                   | Title of your document                                                   |
+|          | `authors`          | list    | true     |                   | List of authors                                                          |
+|          | `keywords`         | list    | true     |                   | List of keywords                                                         |
+|          | `bibliography`     | string  | false    |                   | Path to your bibliography file (*.bib)                                   |
+| options  | `style`            | boolean | false    | `Journal`         | Style of your document, `Journal`, `NewProceedings` or `Proceedings`     |
+|          | `name_tag`         | string  | false    | AuthorOneLastName | The first author's last name for the footer                              | 
+|          | `figs_placement`   | string  | false    | `InsideFigs`      | Placement of the table of figures and tables, `BackFigs` or `InsideFigs` |
+|          | `spacing`          | string  | false    | `DoubleSpace`     | Spacing between lines, `SingleSpace` or `DoubleSpace`                    |
+|          | `font_size`        | string  | false    | `12pt`            | Font size, `10pt`, `11pt`, or `12pt`                                     |
+|          | `other_options`    | string  | false    | `letterpaper`     | Other options for the document class                                     |
+| parts    | `abstract`         | string  | true     |                   | Abstract of your document                                                |
+|          | `availability`     | string  | false    |                   | Data availability statement                                              |
+|          | `acknowledgements` | string  | false    |                   | Acknowledgements                                                         |
+|          | `appendix`         | string  | false    |                   | Appendix                                                                 |
 
 ## Steps to creating your own template!
 
