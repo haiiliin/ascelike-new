@@ -1,9 +1,9 @@
 jtex: v1
-title: elsarticle-template
-description: elsarticle template
+title: ascelike-new
+description: ascelike template
 version: 1.0.0
-license: LPPL-1.2
-source: https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions
+license: LPPL-1.1
+source: https://www.overleaf.com/latex/templates/template-for-preparing-your-submission-to-the-american-society-of-civil-engineers-asce/pbwcqsvndpty
 thumbnail: ./thumbnail.png
 authors:
   - name: WANG Hailin
@@ -20,20 +20,26 @@ parts:
       A good abstract will begin with a short description of the problem being
       addressed, briefly describe the new data or analyses, then briefly states
       the main conclusion(s) and how they are supported and uncertainties.
-  - id: graphicalabstract
-    required: false
+  - id: availability
     description: >
-      Graphical abstracts are a new feature of Elsevier journals. They are
-      designed to provide a visual representation of the main findings of the
-      paper. They should be a single image, with no text, and should be
-      self-explanatory. They should be submitted as a separate file, and will be
-      published online only.
-  - id: highlights
-    required: false
+      The availability section should include a statement of the availability of
+      the data and materials used in the study. The statement should include
+      information about the availability of the data and materials, and the
+      location of the data and materials. The statement should also include
+      information about the length of time the data and materials will be
+      available, and the method of obtaining the data and materials.
+  - id: acknowledgements
     description: >
-      Highlights are a new feature of Elsevier journals. They are designed to
-      provide a concise summary of the main findings of the paper. They should
-      be a maximum of 100 words, and should be submitted as a separate file.
+      The acknowledgements section should include a statement of the
+      acknowledgements. The statement should include information about the
+      individuals and organizations that provided financial or other support for
+      the research and/or writing of the manuscript.
+  - id: appendix
+    description: >
+      The appendix section should include a statement of the appendix. The
+      statement should include information about the appendix. The statement
+      should also include information about the length of time the appendix will
+      be available, and the method of obtaining the appendix.
 doc:
   - id: title
     required: true
@@ -47,31 +53,53 @@ options:
     id: style
     description: Document style
     choices:
-      - preprint
-      - review
-    default: preprint
-  - type: choice
-    id: reference_style
-    description: Reference style
-    choices:
-      - harv
-      - num-names
-      - num
-    default: harv
+      - Journal
+      - NewProceedings
+      - Proceedings
+    default: Journal
   - type: string
-    id: journal_name
-    description: Journal name
-    default: Nuclear Physics B
-  - type: boolean
-    id: lineno
-    description: Whether to show line numbers
-    default: false
+    id: name_tag
+    description: T first author's last name for the footer
+    default: AuthorOneLastName
+  - type: choice
+    id: figs_placement
+    description: Placement of the table of figures and tables
+    choices:
+      - BackFigs
+      - InsideFigs
+    default: InsideFigs
+  - type: choice
+    id: spacing
+    description: Spacing between lines
+    choices:
+      - SingleSpace
+      - DoubleSpace
+    default: DoubleSpace
+  - type: choice
+    id: font_size
+    description: Font size
+    choices:
+      - 10pt
+      - 11pt
+      - 12pt
+    default: 12pt
+  - type: string
+    id: other_options
+    description: Other options for the document class
+    default: 'letterpaper'
 files:
   - template.tex
-  - elsarticle-harv.bst
-  - elsarticle-num-names.bst
-  - elsarticle-num.bst
+  - ascelike-new.bst
+  - ascelike-new.cls
 packages:
   - amsmath
+  - authblk
+  - caption
+  - endfloat
+  - geometry
+  - hyperref
+  - ifthen
   - lineno
+  - setspace
+  - silence
 myst: v1

@@ -1,12 +1,12 @@
-# elsarticle
+# ascelike-new
 
-elsarticle template
+ascelike-new template
 
 ![](thumbnail.png)
 
-- Author: Elsevier
-- Author Website: https://www.elsevier.com/
-- [Submission Guidelines](https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions)
+- Author: American Society of Civil Engineers
+- Author Website: https://www.asce.org/
+- [Submission Guidelines](https://ascelibrary.org/doi/book/10.1061/9780784479018)
 
 ## Steps to creating your own template!
 
