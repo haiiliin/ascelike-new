@@ -59,7 +59,7 @@ options:
     default: Journal
   - type: string
     id: name_tag
-    description: T first author's last name for the footer
+    description: The first author's last name for the footer
     default: AuthorOneLastName
   - type: choice
     id: figs_placement
