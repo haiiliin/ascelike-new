@@ -58,7 +58,7 @@ options:
       - Proceedings
     default: Journal
   - type: choice
-    id: figs_placement
+    id: lists_placement
     description: Placement of the table of figures and tables
     choices:
       - BackFigs
