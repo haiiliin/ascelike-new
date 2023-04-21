@@ -92,7 +92,6 @@ files:
   - ascelike-new.bst
   - ascelike-new.cls
 packages:
-  - amsmath
   - authblk
   - caption
   - endfloat
