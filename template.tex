@@ -53,20 +53,20 @@
 
 [-CONTENT-]
 
+[# if parts.availability #]
 % Availability
 \section*{Data Availability Statement}
-[# if parts.availability #]
 [-parts.availability-]
 [# endif #]
 
+[# if parts.acknowledgements #]
 % Acknowledgements
 \section*{Acknowledgements}
-[# if parts.acknowledgements #]
 [-parts.acknowledgements-]
 [# endif #]
 
-% Appendix
 [# if parts.appendix #]
+% Appendix
 [-parts.appendix-]
 [# endif #]
 
