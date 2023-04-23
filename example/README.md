@@ -33,11 +33,11 @@ keywords:
 exports:
   - format: tex
     template: ..
-    output: ascelike-new-example
+    output: outputs/ascelike-new-example
     name_tag: SimPEG
   - format: pdf
     template: ..
-    output: ascelike-new-example.pdf
+    output: outputs/ascelike-new-example.pdf
     name_tag: SimPEG
 ---
 
